@@ -4,4 +4,6 @@ Console.Write($"[{str}] -> [");
 for (int i = 0; i < Array.Length; i++)
 {
     if (Array[i].Length <= 3)
+    {
+        if (i != Array.Length - 1)
 }
